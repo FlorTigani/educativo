@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 150px;
+    height: 130px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+
+
+.encabezado {
+    display: grid;  
+    
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 100px;
+    padding: 1%;
+    justify-content: center;
+    /* Centrar texto horizontalmente */
+    align-items: center;
+    /* Centrar texto verticalmente */
+    background-color: #365486;
+    color: wheat;
+    
+
+
+}
+
+h1 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    /* background-color: #7fc7d9;*/
+    text-align: center;
+   
+
+}
+
+h5 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+
+}
+
+.container-fluid {
+    background-color: #365486;
+  
+
+}
+
+.nav-item {
+    margin-left: 50px;
+    
+   
+
+}
+
+
+.carousel {
+    margin: 0.5%;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+
+.carousel-item img {
+    width: auto;
+    height: 400px;
+    /* Altura del carrusel */
+
+}
+
+.niv {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 600px;
+    padding: 3%;
+    gap: 5px;
+    justify-content: center;
+
+}
+
+.card {
+
+    margin: 20px;
+    /* Espacio entre las tarjetas */
+    width: 100%;
+    /* Asegura que la tarjeta ocupe el ancho completo de la columna */
+    max-width: 300px;
+    /* Puedes ajustar el ancho máximo según sea necesario */
+}
+
+.niv {
+    background-image: url(./img/fondo.jpg)
+}
+
+.card:hover {
+  
+    transform: scale(1.1);
+    /* Aumenta el tamaño al pasar el ratón */
+    transition: transform 0.5s ease;
+    /* Suaviza la transición */
+
+}
+
+/*footer*/
+
+footer h6 {
+    text-align: right;
+    margin-right: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0f1035;
+}
+
+.sedes {
+    display: grid;
+    flex-wrap: wrap;
+   /* grid-template-columns: repeat(6, 1fr);*/
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 80px;
+    gap: 10px;
+    border: 2px solid #0f1035;
+    font-size: 12px;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+
+}
+
+.sedes h5 {
+    color: #0f1035;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+.sedes img {
+    width: 30px;
+    height: 30px;
+
+}
+
+/*institucional*/
+
+.historia p {
+    width: 50%;
+   margin-inline: auto ;
+   text-align: justify;
+}
+.historia h3{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline; /* Subrayado */
+}
+.objetivo p{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(28, 30, 36);
+    color: wheat;
+    font-size: 20px;
+}
+
+.mision p{
+    width: 50%;
+    margin-inline: auto ;
+    text-align: justify;
+    
+}
+
+.mision h4{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline; /* Subrayado */
+}
+/*niveles*/
+.encNiveles:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+    
+}
+
+.encNiveles h4{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: #0f1035;
+}
+.encNiveles h5{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: #0f1035;
+}
+.info{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 180px;
+    padding: 3%;
+   background-color: #dcf2f1;
+    
+}
+.info p{
+    text-align: center;
+}
+.proposito{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    padding: 3%;
+    gap: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+   
+}
+.proposito p{
+    text-align: justify;
+}
+/*primario*/
+.propositoPrimario{
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+/*Secundario*/
+.infoSecundario{
+    text-align: center;
+    background-color: #dcf2f1;
+    
+}
+.infoSecundario p{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+/*inscripciones*/
+.inscrip{
+    background-image: url(./img/fondo.jpg);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.inscrip h3:hover{
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el mouse */
+}
+.inscrip2 img{
+   padding: 5%;
+    width: 450px;
+    height:500px;
+   
+    
+}
+.inscrip2{
+    background-image: url(./img/fondo.jpg);
+    text-align: center;
+}
+.inscrip2 h3:hover{
+    transform: scale(1.2);
+}
+
+/*formulario*/
+.formulario h3{
+    text-align: center;
+}
+
+.formulario{
+
+   text-align: center;
+}
+ul{
+
+    list-style-type: none;
+}
+.opcion{
+    margin-left: 600px;
+    margin-right: 600px;
+}
